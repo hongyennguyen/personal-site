@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: white;
+    color: #40514e;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;;
+    font-size: 5rem;
+    margin: 50px auto -15px auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border: dotted #d5e0e0 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p {
+    
+    line-height: 1.5;
+}
+
+a {
+    color: #11999e;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+/*****class selector*****/
+
+
+.top-container {
+    padding-top: 100px;
+    margin: auto;
+}
+
+.blue-sky {
+  
+  z-index: -5;
+  position: absolute;
+  left: 0%;
+  margin-left: 0%;
+  bottom: -3%;
+  margin-bottom: -3%;
+    
+}
+
+.blossom-tree {
+    max-width: 700px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.middle-container {
+    background-color: white;
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    color: #eaf6f6;
+    padding: 50px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+.penimg {
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+}
+
+.blocksimg {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.blossom-tree {
+    position: relative;
+    width: 75%;
+    margin: 10px auto 0px auto;
+}
+
+.profilepicture {
+    width: 150px;
+}
+
+
+.impact {
+    text-decoration: underline;
+}
+
+
+.footer-link {
+    color: #11999E;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contact-message {
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #1cbabf;
+    background-image: -webkit-linear-gradient(top, #1cbabf, #11999E);
+    background-image: -moz-linear-gradient(top, #1cbabf, #11999E);
+    background-image: -ms-linear-gradient(top, #1cbabf, #11999E);
+    background-image: -o-linear-gradient(top, #1cbabf, #11999E);
+    background-image: linear-gradient(to bottom, #1cbabf, #11999E);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #c21dba;
+    background-image: -webkit-linear-gradient(top, #c21dba, #6b119c);
+    background-image: -moz-linear-gradient(top, #c21dba, #6b119c);
+    background-image: -ms-linear-gradient(top, #c21dba, #6b119c);
+    background-image: -o-linear-gradient(top, #c21dba, #6b119c);
+    background-image: linear-gradient(to bottom, #c21dba, #6b119c);
+    text-decoration: none;
+  }
+
+  .copyright-text {
+    color: #EAF6F6;
+    font-size: .75rem;
+    padding: 20px 0px;
+  }
